@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @template.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @template.description %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @template.price %>
+</p>
+
+<p>
+  <b>Image url:</b>
+  <%= @template.image_url %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%= @template.category %>
+</p>
+
+
+<%= link_to 'Edit', edit_template_path(@template) %> |
+<%= link_to 'Back', templates_path %>
